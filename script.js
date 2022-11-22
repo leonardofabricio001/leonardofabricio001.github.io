@@ -7,14 +7,14 @@ outputTexts = {
 
 }
 
-function defaultSettings(e){
+function defaultSettings(e) {
       output.textContent = "";
       e.target.style.opacity = 0.5;
       document.body.style.backgroundImage = `url(imagens/background_default.jpg)`;
 
 }
 
-function setOutputSettings(e){
+function setOutputSettings(e) {
       output.textContent = outputTexts[e.target.id];
       e.target.style.opacity = 1.0;
       document.body.style.backgroundImage = `url(imagens/${e.target.id}_background.jpg)`;

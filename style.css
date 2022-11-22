@@ -14,7 +14,7 @@ body {
 }
 
 a {
-      text-decoration: none;
+      color: inherit;
 }
 
 ul {
@@ -61,20 +61,15 @@ li:hover {
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       padding: 6px;
       margin: 0px 100px;
-      color: rgb(7, 7, 7);
-      background-color: rgba(255, 255, 255, 0.5);
+      color: rgba(7, 7, 7);
+      background-color: rgba(255, 255, 255);
       border-radius: 4px;
-
-}
-
-.mainDiv h1:target {
-      background-color: rgba(255, 255, 255, 1.0);
 
 }
 
 .mainDiv p {
       font-size: 16pt;
-      color: rgb(255, 255, 255);
+      color: rgba(250, 250, 250);
       text-shadow: 4px 4px 6px rgba(0, 0, 0, 1.0);
       font-weight: bolder;
 }
@@ -94,27 +89,26 @@ li:hover {
       margin: 20px 100px;
 }
 
-.gridProjects{
+.gridProjects {
       display: grid;
       grid-template-columns: 300px 300px 300px;
       place-content: center;
 
 }
 
-.gridProjects img{
-      display: block;
+.gridProjects img {
       border-radius: 15px;
-      margin: 0px 30px;
+      margin: 10px 30px;
       padding: 10px;
       opacity: 0.5;
       transition: 0.5s;
 }
 
-.gridProjects img:hover{
+.gridProjects img:hover {
       opacity: 1.0;
 }
 
-.gridProjects a{
+.gridProjects a {
       margin: auto;
       color: rgba(255, 255, 255);
 
