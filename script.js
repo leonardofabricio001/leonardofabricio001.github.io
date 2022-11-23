@@ -3,7 +3,7 @@ outputTexts = {
       "html": "HTML (Hypertext Markup Language ou Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.",
       "css": "CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em XML. O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.",
       "js": "O JavaScript é uma linguagem de programação interpretada baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional).",
-      "py": "Python é uma linguagem de programação interpretada, orientada a objetos e de alto nível.",
+      "py": "O Python é uma linguagem de programação interpretada, orientada a objetos e de alto nível.",
       "git": "O Git é um software de controle de versão que proporciona versionamento de código."
 
 }
